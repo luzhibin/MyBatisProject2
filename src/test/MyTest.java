@@ -85,7 +85,6 @@ public class MyTest {
         customer.setCust_id(5);
         customer.setCust_name("亚索");
         Customer customer1 = mapper.getCustomerWithID(customer);
-
         System.out.println(customer1);
         sqlSession.close();
     }
